@@ -41,7 +41,7 @@ jobs:
     - name: 'Building...'
       uses: reuixiy/hugo-deploy@v1
       env:
-        DEPLOY_REPO: LawRefBook/lawrefbook.github.io
+        DEPLOY_REPO: oldautumn/cnlaw.github.io
         DEPLOY_BRANCH: build
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         TZ: Asia/Shanghai

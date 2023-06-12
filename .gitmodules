@@ -3,5 +3,5 @@
 	url = https://github.com/alex-shpak/hugo-book
 [submodule "content/docs"]
 	path = content/docs
-	url = git@github.com:LawRefBook/Laws.git
+	url = git@github.com:oldautumn/CNLaws.git
 	branch = master
