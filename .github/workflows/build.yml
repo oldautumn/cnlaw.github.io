@@ -45,7 +45,7 @@ jobs:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         TZ: Asia/Shanghai
 
-    - name: "Sending Notification"
-      uses: fjogeleit/http-request-action@master
-      with:
-        url: ${{ secrets.NOTICE_URL }}
+#     - name: "Sending Notification"
+#       uses: fjogeleit/http-request-action@master
+#       with:
+#         url: ${{ secrets.NOTICE_URL }}
